@@ -4,6 +4,6 @@
 
 ## Links
 
-https://www.sonarsource.com/lp/solutions/security
+https://docs.sonarsource.com/sonarcloud/getting-started/github/
   
 https://github.com/rufer7/github-sonarcloud-integration
