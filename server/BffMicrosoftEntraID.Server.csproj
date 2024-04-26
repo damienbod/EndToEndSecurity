@@ -8,7 +8,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<!-- This is required to include terraform files in SonarCloud analysis -->
+		<!-- This is required to include ts and js files in SonarCloud analysis -->
 		<!-- See https://docs.sonarsource.com/sonarqube/9.8/analyzing-source-code/scanners/sonarscanner-for-dotnet/#advanced-topics -->
 		<Content Include="..\ui\**\*.ts">
 			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
