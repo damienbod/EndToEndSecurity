@@ -9,6 +9,8 @@
 
 	<ItemGroup>
 		<!-- This is required to include ts and js files in SonarCloud analysis -->
+    <!-- Add to the sonar cloud build: EndToEndSecurity == github repo -->
+    <!-- /d:sonar.projectBaseDir="D:\a\EndToEndSecurity\EndToEndSecurity" /d:sonar.exclusions=**/node_modules/** -->
 		<!-- See https://docs.sonarsource.com/sonarqube/9.8/analyzing-source-code/scanners/sonarscanner-for-dotnet/#advanced-topics -->
 		<Content Include="..\ui\**\*.ts">
 			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
