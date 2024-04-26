@@ -20,3 +20,5 @@
 https://docs.sonarsource.com/sonarcloud/getting-started/github/
   
 https://github.com/rufer7/github-sonarcloud-integration
+
+https://blog.rufer.be/2023/10/06/howto-integrate-sonarcloud-analysis-in-an-azure-devops-yaml-pipeline/
