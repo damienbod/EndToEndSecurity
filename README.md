@@ -22,3 +22,8 @@ https://docs.sonarsource.com/sonarcloud/getting-started/github/
 https://github.com/rufer7/github-sonarcloud-integration
 
 https://blog.rufer.be/2023/10/06/howto-integrate-sonarcloud-analysis-in-an-azure-devops-yaml-pipeline/
+
+https://community.sonarsource.com/t/code-coverage-report-for-net-not-working-on-linux-agent/62087
+
+https://docs.sonarsource.com/sonarcloud/advanced-setup/ci-based-analysis/sonarscanner-for-net/#analyzing-languages-other-than-c-and-vb
+
