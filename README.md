@@ -27,3 +27,5 @@ https://community.sonarsource.com/t/code-coverage-report-for-net-not-working-on-
 
 https://docs.sonarsource.com/sonarcloud/advanced-setup/ci-based-analysis/sonarscanner-for-net/#analyzing-languages-other-than-c-and-vb
 
+https://andreiepure.ro/2023/08/20/analyze-web-files-with-s4net.html
+
