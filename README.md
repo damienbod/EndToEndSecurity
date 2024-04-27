@@ -15,6 +15,12 @@
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=damienbod_EndToEndSecurity&metric=sqale_rating)](https://sonarcloud.io/summary/overall?id=damienbod_EndToEndSecurity)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=damienbod_EndToEndSecurity&metric=vulnerabilities)](https://sonarcloud.io/summary/overall?id=damienbod_EndToEndSecurity)
 
+## Setup and docs
+
+https://github.com/damienbod/bff-aspnetcore-angular
+
+![BFF production](https://github.com/damienbod/EndToEndSecurity/blob/main/images/bff-arch-production_01.png)
+
 ## Links
 
 https://docs.sonarsource.com/sonarcloud/getting-started/github/
