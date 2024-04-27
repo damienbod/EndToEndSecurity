@@ -38,7 +38,7 @@ jobs:
         run: |
           New-Item -Path .\.sonar\scanner -ItemType Directory
           dotnet tool update dotnet-sonarscanner --tool-path .\.sonar\scanner
-      - name: Install dotnet-coverage
+      - name: Install dotnet-coverage # not used as not tests exist in backend
         shell: powershell
         run: |
           dotnet tool install --global dotnet-coverage
@@ -50,5 +50,6 @@ jobs:
         run: |
           .\.sonar\scanner\dotnet-sonarscanner begin /k:"damienbod_EndToEndSecurity" /o:"damienbod" /d:sonar.token="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io" /d:sonar.projectBaseDir="D:\a\EndToEndSecurity\EndToEndSecurity" /d:sonar.exclusions=**/node_modules/**
           dotnet build .\Bff.sln --configuration Release
+          # dotnet-coverage collect 'dotnet test .\src\--testproj--.Tests\--testproj--.Tests.csproj' -f xml  -o 'coverage.xml'
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
 
