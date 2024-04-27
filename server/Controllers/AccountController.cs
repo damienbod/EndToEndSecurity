@@ -1,15 +1,16 @@
 ﻿namespace BffMicrosoftEntraID.Server.Controllers;
 
-// orig src https://github.com/berhir/BlazorWebAssemblyCookieAuth
+/// <summary>
+/// orig src https://github.com/berhir/BlazorWebAssemblyCookieAuth
+/// var claims = "{\"access_token\":{\"acrs\":{\"essential\":true,\"value\":\"c1\"}}}";
+/// var claims = "{\"id_token\":{\"acrs\":{\"essential\":true,\"value\":\"c1\"}}}";
+/// </summary>
 [Route("api/[controller]")]
 public class AccountController : ControllerBase
 {
     [HttpGet("Login")]
     public ActionResult Login(string? returnUrl, string? claimsChallenge)
     {
-        // var claims = "{\"access_token\":{\"acrs\":{\"essential\":true,\"value\":\"c1\"}}}";
-        // var claims = "{\"id_token\":{\"acrs\":{\"essential\":true,\"value\":\"c1\"}}}";
-
         var properties = GetAuthProperties(returnUrl);
 
         if (claimsChallenge != null)
@@ -22,7 +23,10 @@ public class AccountController : ControllerBase
         return Challenge(properties);
     }
 
-    // [ValidateAntiForgeryToken] // not needed explicitly due the the Auto global definition.
+    /// <summary>
+    /// [ValidateAntiForgeryToken] // not needed explicitly due the the Auto global definition.
+    /// </summary>
+    /// <returns></returns>
     [IgnoreAntiforgeryToken] // need to apply this to the form post request
     [Authorize]
     [HttpPost("Logout")]
