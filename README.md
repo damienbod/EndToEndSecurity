@@ -33,7 +33,7 @@ https://github.com/damienbod/bff-aspnetcore-angular
 	- Microsoft Graph 5 for profile data
 	- Profile data in UI (UserController)
 - Session protection
-- Setup development/production envirnoment 
+- Setup development/production environment 
 	- [ASP.NET Core/Angular](https://github.com/damienbod/bff-aspnetcore-angular)
 	- Secrets
 - CI/CD 
