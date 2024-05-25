@@ -25,16 +25,19 @@ https://github.com/damienbod/bff-aspnetcore-angular
 
 ## Webinar Agenda
 
-- [OpenID Connect Code flow confidential client](https://github.com/damienbod/EndToEndSecurity/blob/main/images/OIDC%20Code%20flow.md)
-- [PKCE](https://github.com/damienbod/EndToEndSecurity/blob/main/images/PKCE.md)
-- Microsoft Entra ID: Microsoft.Identity.Web
-- Microsoft Graph 5 for profile data
-- Setup development envirnoment (Angular)
-- Setup production envirnoment
+- Authentication
+	- [OpenID Connect Code flow confidential client](https://github.com/damienbod/EndToEndSecurity/blob/main/images/OIDC%20Code%20flow.md)
+	- [PKCE](https://github.com/damienbod/EndToEndSecurity/blob/main/images/PKCE.md)
+- Microsoft Entra ID 
+	- Microsoft.Identity.Web
+	- Microsoft Graph 5 for profile data
+	- Profile data in UI (UserController)
 - Session protection
-- CI/CD build
-- CI/CD deployment
-- CI/CD quality (SonarCloud and github actions)
+- Setup development/production envirnoment (Angular)
+- CI/CD 
+	- [build](.github/workflows/dotnet.yml)
+	- [deployment](.github/workflows/azure-webapps-dotnet-core.yml)
+	- [quality (SonarCloud and github actions)](.github/workflows/sonarbuild.yml)
 
 
 ## Links
