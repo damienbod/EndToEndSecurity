@@ -21,6 +21,12 @@ https://github.com/damienbod/bff-aspnetcore-angular
 
 ![BFF production](https://github.com/damienbod/EndToEndSecurity/blob/main/images/bff-arch-production_01.png)
 
+## Presentation
+
+- [OpenID Connect Code flow + PKCE with client secret confidential client](https://github.com/damienbod/EndToEndSecurity/blob/main/images/OIDC%20Code%20flow.md)
+- [PKCE](https://github.com/damienbod/EndToEndSecurity/blob/main/images/PKCE.md)
+
+
 ## Links
 
 https://docs.sonarsource.com/sonarcloud/getting-started/github/
