@@ -33,12 +33,23 @@ https://github.com/damienbod/bff-aspnetcore-angular
 	- Microsoft Graph 5 for profile data
 	- Profile data in UI (UserController)
 - Session protection
-- Setup development/production envirnoment (Angular)
+- Setup development/production envirnoment 
+	- Angular
+	- Secrets
 - CI/CD 
 	- [build](.github/workflows/dotnet.yml)
 	- [deployment](.github/workflows/azure-webapps-dotnet-core.yml)
+- CI/CD Quality (SonarCloud)
 	- [quality (SonarCloud and github actions)](.github/workflows/sonarbuild.yml)
+	- Analysis for different technical stacks (.csproj)
+	- sonar badges, build badges
 
+## Other topics
+
+- What's missing for a productive setup?
+	- infrastructure automation (terraform/biceps)
+	- authorization
+	- data requirements
 
 ## Links
 
