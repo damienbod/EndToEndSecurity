@@ -25,6 +25,9 @@ https://github.com/damienbod/bff-aspnetcore-angular
 
 ## Webinar Agenda
 
+- Application setup development/production 
+	- [ASP.NET Core/Angular](https://github.com/damienbod/bff-aspnetcore-angular)
+	- Secrets
 - Authentication
 	- [OpenID Connect Code flow confidential client](https://github.com/damienbod/EndToEndSecurity/blob/main/images/OIDC%20Code%20flow.md)
 	- [PKCE](https://github.com/damienbod/EndToEndSecurity/blob/main/images/PKCE.md)
@@ -33,9 +36,6 @@ https://github.com/damienbod/bff-aspnetcore-angular
 	- Microsoft Graph 5 for profile data
 	- Profile data in UI (UserController)
 - Session protection
-- Setup development/production environment 
-	- [ASP.NET Core/Angular](https://github.com/damienbod/bff-aspnetcore-angular)
-	- Secrets
 - CI/CD 
 	- [build](.github/workflows/dotnet.yml)
 	- [deployment](.github/workflows/azure-webapps-dotnet-core.yml)
