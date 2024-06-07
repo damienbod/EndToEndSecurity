@@ -71,3 +71,4 @@ https://andreiepure.ro/2023/08/20/analyze-web-files-with-s4net.html
 
 https://github.com/damienbod/bff-aspnetcore-angular
 
+https://community.sonarsource.com/t/webinar-end-to-end-security-in-a-web-application/115405
