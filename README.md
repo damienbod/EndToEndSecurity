@@ -17,6 +17,10 @@
 
 [Using SonarCloud with ASP.NET Core, Angular and github actions](https://damienbod.com/2024/05/13/using-sonarcloud-with-asp-net-core-angular-and-github-actions/)
 
+Webinar:
+
+https://www.youtube.com/watch?v=6cdV-oN_Yao
+
 ## Setup and docs
 
 https://github.com/damienbod/bff-aspnetcore-angular
@@ -67,3 +71,4 @@ https://andreiepure.ro/2023/08/20/analyze-web-files-with-s4net.html
 
 https://github.com/damienbod/bff-aspnetcore-angular
 
+https://community.sonarsource.com/t/webinar-end-to-end-security-in-a-web-application/115405
