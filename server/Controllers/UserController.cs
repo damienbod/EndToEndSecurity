@@ -10,7 +10,7 @@ public class UserController : ControllerBase
 
     private static UserInfo CreateUserInfo(ClaimsPrincipal claimsPrincipal)
     {
-        if (claimsPrincipal == null || claimsPrincipal.Identity == null 
+        if (claimsPrincipal == null || claimsPrincipal.Identity == null
             || !claimsPrincipal.Identity.IsAuthenticated)
         {
             return UserInfo.Anonymous;
