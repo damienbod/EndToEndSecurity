@@ -1,5 +1,7 @@
 # End to end security of a web application
 
+See updated version here: https://github.com/secure-web-apps/EndToEndSecurityWeb
+
 [![.NET and npm build](https://github.com/damienbod/EndToEndSecurity/actions/workflows/dotnet.yml/badge.svg)](https://github.com/damienbod/EndToEndSecurity/actions/workflows/dotnet.yml)
 [![SonarCloud](https://github.com/damienbod/EndToEndSecurity/actions/workflows/sonarbuild.yml/badge.svg)](https://github.com/damienbod/EndToEndSecurity/actions/workflows/sonarbuild.yml)
 
@@ -87,3 +89,4 @@ https://andreiepure.ro/2023/08/20/analyze-web-files-with-s4net.html
 https://github.com/damienbod/bff-aspnetcore-angular
 
 https://community.sonarsource.com/t/webinar-end-to-end-security-in-a-web-application/115405
+
